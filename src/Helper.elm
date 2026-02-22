@@ -1,14 +1,14 @@
 module Helper exposing
-    ( joinWords
-    , isUpperChars
-    , evalChars
+    ( evalChars
     , headers
     , hyperlink
+    , isUpperChars
+    , joinWords
     )
 
+import Char
 import Html exposing (Html, a, div, h1, h2, h3, h4, h5, h6, text)
 import Html.Attributes exposing (href)
-import Char
 
 
 joinWords : String -> String -> String
