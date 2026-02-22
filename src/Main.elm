@@ -1,10 +1,8 @@
 module Main exposing (main)
 
 import Browser
+import Helper exposing (..) -- Esto conecta tu Main con tu Helper
 import Html exposing (Html, div, text)
-import Helper exposing (joinWords, headers, hyperlink)
-
-
 
 main : Program () () ()
 main =
@@ -18,4 +16,3 @@ main =
                 , text ("Concatenación: " ++ joinWords "Hola" " Mundo")
                 ]
         }
-
