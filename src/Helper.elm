@@ -11,7 +11,6 @@ import Html.Attributes exposing (href)
 import Char
 
 
-
 joinWords : String -> String -> String
 joinWords word1 word2 =
     word1 ++ word2
