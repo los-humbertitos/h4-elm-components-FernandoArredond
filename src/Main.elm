@@ -4,7 +4,7 @@ module Main exposing (main)
 
 import Browser
 import Helper exposing (..)
-import Html exposing (Html, div, text)
+import Html exposing (div, text)
 
 
 main : Program () () ()
