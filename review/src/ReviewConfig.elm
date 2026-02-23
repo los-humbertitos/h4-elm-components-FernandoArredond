@@ -11,9 +11,13 @@ when inside the directory containing this file.
 
 -}
 
+import NoMissingTypeAnnotation
+import NoMissingTypeAnnotationInLetIn
 import Review.Rule exposing (Rule)
 
 
 config : List Rule
 config =
-    []
+    [ NoMissingTypeAnnotation.rule
+    , NoMissingTypeAnnotationInLetIn.rule
+    ]
